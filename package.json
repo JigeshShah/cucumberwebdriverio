@@ -1,0 +1,34 @@
+{
+  "name": "cucumberweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "chai": "^4.2.0",
+    "chromedriver": "^2.43.3",
+    "cucumber": "^4.1.0",
+    "geckodriver": "^1.14.1",
+    "glob": "^7.1.2",
+    "is-glob": "^4.0.0",
+    "mockery": "~2.1.0",
+    "wdio-sync": "0.7.3",
+    "webdriverio": "^4.14.0"
+  },
+  "devDependencies": {
+    "wdio-cucumber-framework": "^2.2.8",
+    "babel-runtime": "^6.26.0",
+    "cucumber": "^4.1.0",
+    "glob": "^7.1.2",
+    "is-glob": "^4.0.0",
+    "mockery": "~2.1.0",
+    "wdio-sync": "0.7.3",
+    "wdio-junit-reporter": "^0.4.4"
+  }
+}

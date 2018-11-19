@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Test_OpenWeather_functionalities" timestamp="2018-11-20T00:20:43" time="117.887" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="821d481435071b1298e0b857366779d9"/>
+      <property name="suiteName" value="Test OpenWeather functionalities"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value="C:\Program Files (x86)\Jenkins\workspace\CucumberWebdriverio\features\OpenWeather.feature"/>
+    </properties>
+  </testsuite>
+  <testsuite name="Validating_the_Elements_on_the_Home_Page" timestamp="2018-11-20T00:20:43" time="48.912" tests="2" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="821d481435071b1298e0b857366779d9"/>
+      <property name="suiteName" value="Validating the Elements on the Home Page"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value="C:\Program Files (x86)\Jenkins\workspace\CucumberWebdriverio\features\OpenWeather.feature"/>
+    </properties>
+    <testcase classname="chrome.Validating_the_Elements_on_the_Home_Page" name="I_am_on_the_Home_page" time="118.514"/>
+    <testcase classname="chrome.Validating_the_Elements_on_the_Home_Page" name="I_should_be_able_to_validate_the_Important_elements" time="70.621"/>
+  </testsuite>
+  <testsuite name="Verify_the_valid_Search_City_functionality" timestamp="2018-11-20T00:21:32" time="10.899" tests="3" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="821d481435071b1298e0b857366779d9"/>
+      <property name="suiteName" value="Verify the valid Search City functionality"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value="C:\Program Files (x86)\Jenkins\workspace\CucumberWebdriverio\features\OpenWeather.feature"/>
+    </properties>
+    <testcase classname="chrome.Verify_the_valid_Search_City_functionality" name="I_am_on_the_Home_page" time="69.602"/>
+    <testcase classname="chrome.Verify_the_valid_Search_City_functionality" name="I_enter_a_valid_city_name_Mumbai_and_click_on_Search" time="66.947"/>
+    <testcase classname="chrome.Verify_the_valid_Search_City_functionality" name="I_should_be_able_to_view_the_City_Mumbai_IN_as_a_Link" time="63.856"/>
+  </testsuite>
+  <testsuite name="Verify_the_valid_Search_City_functionality" timestamp="2018-11-20T00:21:43" time="7.863" tests="3" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="821d481435071b1298e0b857366779d9"/>
+      <property name="suiteName" value="Verify the valid Search City functionality"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value="C:\Program Files (x86)\Jenkins\workspace\CucumberWebdriverio\features\OpenWeather.feature"/>
+    </properties>
+    <testcase classname="chrome.Verify_the_valid_Search_City_functionality" name="I_am_on_the_Home_page" time="58.703"/>
+    <testcase classname="chrome.Verify_the_valid_Search_City_functionality" name="I_enter_a_valid_city_name_delhi_and_click_on_Search" time="55.933"/>
+    <testcase classname="chrome.Verify_the_valid_Search_City_functionality" name="I_should_be_able_to_view_the_City_Delhi_IN_as_a_Link" time="54.097"/>
+  </testsuite>
+  <testsuite name="Verify_the_invalid_Search_City_functionality" timestamp="2018-11-20T00:21:51" time="13.075" tests="3" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="821d481435071b1298e0b857366779d9"/>
+      <property name="suiteName" value="Verify the invalid Search City functionality"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value="C:\Program Files (x86)\Jenkins\workspace\CucumberWebdriverio\features\OpenWeather.feature"/>
+    </properties>
+    <testcase classname="chrome.Verify_the_invalid_Search_City_functionality" name="I_am_on_the_Home_page" time="50.84"/>
+    <testcase classname="chrome.Verify_the_invalid_Search_City_functionality" name="I_enter_an_invalid_city_name_ashasjkas_and_click_on_Search" time="48.863"/>
+    <testcase classname="chrome.Verify_the_invalid_Search_City_functionality" name="I_should_be_able_to_view_the_not_found_error_message" time="46.975"/>
+  </testsuite>
+  <testsuite name="Verify_the_invalid_Search_City_functionality" timestamp="2018-11-20T00:22:04" time="3.686" tests="3" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="821d481435071b1298e0b857366779d9"/>
+      <property name="suiteName" value="Verify the invalid Search City functionality"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value="C:\Program Files (x86)\Jenkins\workspace\CucumberWebdriverio\features\OpenWeather.feature"/>
+    </properties>
+    <testcase classname="chrome.Verify_the_invalid_Search_City_functionality" name="I_am_on_the_Home_page" time="37.765"/>
+    <testcase classname="chrome.Verify_the_invalid_Search_City_functionality" name="I_enter_an_invalid_city_name_zxkzxjzxj_and_click_on_Search" time="36.305"/>
+    <testcase classname="chrome.Verify_the_invalid_Search_City_functionality" name="I_should_be_able_to_view_the_not_found_error_message" time="34.729"/>
+  </testsuite>
+  <testsuite name="Verify_the_SignIn_Functionality" timestamp="2018-11-20T00:22:07" time="33.44" tests="4" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="821d481435071b1298e0b857366779d9"/>
+      <property name="suiteName" value="Verify the SignIn Functionality"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value="C:\Program Files (x86)\Jenkins\workspace\CucumberWebdriverio\features\OpenWeather.feature"/>
+    </properties>
+    <testcase classname="chrome.Verify_the_SignIn_Functionality" name="I_am_on_the_Home_page" time="34.075"/>
+    <testcase classname="chrome.Verify_the_SignIn_Functionality" name="I_click_on_the_SignIn_link" time="32.89"/>
+    <testcase classname="chrome.Verify_the_SignIn_Functionality" name="I_Enter_the_username_and_password" time="23.807"/>
+    <testcase classname="chrome.Verify_the_SignIn_Functionality" name="I_should_be_able_to_validate_the_view_the_SignIn_Success_Message" time="0.764"/>
+  </testsuite>
+</testsuites>
